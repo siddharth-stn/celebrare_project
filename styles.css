@@ -1,0 +1,27 @@
+
+.navbar {
+    box-shadow: 2px 14px 7px -4px rgba(204,204,204,0.53);
+}
+
+.logo {
+    height: 30px;
+    width: 69px;
+    background: url("./assets/Logo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-hero {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 100px;
+    background: url("./assets/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 7%;
+}
