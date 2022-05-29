@@ -1,0 +1,19 @@
+{
+  "name": "celebrare_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharth-stn/celebrare_project.git"
+  },
+  "author": "Siddharth Pande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharth-stn/celebrare_project/issues"
+  },
+  "homepage": "https://github.com/siddharth-stn/celebrare_project#readme"
+}
