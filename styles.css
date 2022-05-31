@@ -95,6 +95,10 @@
     gap: 5px;
 }
 
+.indicator > div {
+    transition: width 1s, height 1s, border-radius 1s;
+}
+
 .line {
     width: 25px;
     height: 3px;
