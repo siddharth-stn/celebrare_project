@@ -84,6 +84,7 @@
 .translate-twice {
     transform: translateX(-200%);
 }
+
 /* the above classes to help in carousel */
 
 .indicator {
@@ -164,4 +165,45 @@
     text-align: center;
     font-size: 0.7rem;
     color: rgb(158, 153, 153);
+}
+
+.heading-card-two {
+    width: 86%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-card-two h2 {
+    margin-bottom: 0px;
+}
+
+.card-two {
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 15px;
+    width: 86%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.card-two > div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-two .cust-bullet {
+    flex-shrink: 0;
+    background-image: radial-gradient(white, rgb(159, 159, 159));
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: blur(4px)
 }
